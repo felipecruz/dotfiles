@@ -130,3 +130,7 @@ nmap <silent><Leader>tfu <Esc>:Pytest function<CR>
 nmap <silent><Leader>tn <Esc>:Pytest next<CR>
 nmap <silent><Leader>tp <Esc>:Pytest previous<CR>
 nmap <silent><Leader>te <Esc>:Pytest error<CR>
+
+let g:syntastic_mode_map = { 'mode': 'active',
+                           \ 'active_filetypes': ['c'],
+                           \ 'passive_filetypes': ['python'] }
