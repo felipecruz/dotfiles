@@ -121,3 +121,12 @@ let g:ctrlp_map='<c-p>'
 
 " Disable pylint checking every save
 let g:pymode_lint_write = 0
+
+" run py.test's
+nmap <silent><Leader>tf <Esc>:Pytest file<CR>
+nmap <silent><Leader>tc <Esc>:Pytest class<CR>
+nmap <silent><Leader>tm <Esc>:Pytest method<CR>
+nmap <silent><Leader>tfu <Esc>:Pytest function<CR>
+nmap <silent><Leader>tn <Esc>:Pytest next<CR>
+nmap <silent><Leader>tp <Esc>:Pytest previous<CR>
+nmap <silent><Leader>te <Esc>:Pytest error<CR>
