@@ -19,5 +19,11 @@ set guioptions-=r  "remove right-hand scroll bar
 
 let mapleader=","
 
+" ,v open vimrc
+" ,V reload vimrc
 map <leader>v :sp ~/.vimrc<CR><C-W>
 map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
+
+" open and close quickfix window
+nmap <leader>c :copen<CR>
+nmap <leader>cc :cclose<CR>
