@@ -34,3 +34,7 @@ map <c-l> <c-w>l
 map <c-h> <c-w>h
 
 imap <C-W> <C-O><C-W>
+
+if has("gui_running")
+    colorscheme topfunky-light
+endif
