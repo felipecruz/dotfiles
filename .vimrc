@@ -86,3 +86,5 @@ set showcmd
 set report=0
 set laststatus=2
 set statusline=%y:%f%=(%l/%L)
+
+let g:ctrlp_map='<c-p>'
