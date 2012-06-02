@@ -105,8 +105,6 @@ nnoremap <leader><space> :nohlsearch<cr>
 " Remove trailing whitespace on <leader>S
 nnoremap <leader>S :%s/\s\+$//<cr>:let @/=''<CR>
 
-let g:ctrlp_map='<c-p>'
-
 " jinja templates as html
 autocmd BufNewFile,BufRead *.jinja2 setlocal ft=html
 
@@ -115,3 +113,6 @@ autocmd FileType html,xhtml,xml,css setlocal expandtab shiftwidth=2 tabstop=2 so
 
 " python cinwords
 au FileType python setlocal smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class,with
+
+" Plugins configs
+let g:ctrlp_map='<c-p>'
