@@ -38,3 +38,8 @@ imap <C-W> <C-O><C-W>
 if has("gui_running")
     colorscheme topfunky-light
 endif
+
+noremap <Up> <nop>
+noremap <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
