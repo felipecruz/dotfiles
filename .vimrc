@@ -87,4 +87,22 @@ set report=0
 set laststatus=2
 set statusline=%y:%f%=(%l/%L)
 
+set ignorecase
+set smartcase
+set smarttab
+set hlsearch
+set incsearch
+
+" paste from clipboard
+map <leader>p "+gP"
+
+" Quit window on <leader>q
+nnoremap <leader>q :q<CR>
+"
+" hide matches on <leader>space
+nnoremap <leader><space> :nohlsearch<cr>
+
+" Remove trailing whitespace on <leader>S
+nnoremap <leader>S :%s/\s\+$//<cr>:let @/=''<CR>
+
 let g:ctrlp_map='<c-p>'
