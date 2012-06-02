@@ -1,3 +1,5 @@
+call pathogen#infect()
+
 set nocompatible
 set number
 
@@ -77,3 +79,10 @@ set noautoread
 set modeline
 set modelines=5
 set ffs=unix,mac,dos
+
+set ls=2
+set confirm
+set showcmd
+set report=0
+set laststatus=2
+set statusline=%y:%f%=(%l/%L)
