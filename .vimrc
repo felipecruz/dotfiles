@@ -106,3 +106,12 @@ nnoremap <leader><space> :nohlsearch<cr>
 nnoremap <leader>S :%s/\s\+$//<cr>:let @/=''<CR>
 
 let g:ctrlp_map='<c-p>'
+
+" jinja templates as html
+autocmd BufNewFile,BufRead *.jinja2 setlocal ft=html
+
+" tab<spaces> width and indent size = 2
+autocmd FileType html,xhtml,xml,css setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+
+" python cinwords
+au FileType python setlocal smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class,with
