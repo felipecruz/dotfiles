@@ -1,4 +1,9 @@
+filetype off
+
 call pathogen#infect()
+
+filetype plugin indent on
+syntax on
 
 set nocompatible
 set number
@@ -50,9 +55,6 @@ au FileType c set colorcolumn=79
 au FileType text set colorcolumn=79
 au FileType javascript set colorcolumn=79
 au FileType python set colorcolumn=79
-
-syntax on
-filetype on
 
 set numberwidth=1
 set title
@@ -116,3 +118,6 @@ au FileType python setlocal smartindent cinwords=if,elif,else,for,while,try,exce
 
 " Plugins configs
 let g:ctrlp_map='<c-p>'
+
+" Disable pylint checking every save
+let g:pymode_lint_write = 0
