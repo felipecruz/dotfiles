@@ -60,3 +60,20 @@ set wildmode=full
 " ignore files when completing
 set wildignore+=*.o,.git,*.pyc,*~
 set grepprg=ack-grep
+
+set cursorline
+set ruler
+set nowrap
+set linebreak
+set autoindent
+set smartindent
+set scrolloff=3
+set backspace=2
+set foldmethod=indent
+set foldlevel=99
+set noautowrite
+set noautowriteall
+set noautoread
+set modeline
+set modelines=5
+set ffs=unix,mac,dos
