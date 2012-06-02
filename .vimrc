@@ -48,3 +48,15 @@ au FileType c set colorcolumn=79
 au FileType text set colorcolumn=79
 au FileType javascript set colorcolumn=79
 au FileType python set colorcolumn=79
+
+syntax on
+filetype on
+
+set numberwidth=1
+set title
+set wildmenu
+set wildmode=full
+
+" ignore files when completing
+set wildignore+=*.o,.git,*.pyc,*~
+set grepprg=ack-grep
