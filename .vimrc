@@ -27,3 +27,10 @@ map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimr
 " open and close quickfix window
 nmap <leader>c :copen<CR>
 nmap <leader>cc :cclose<CR>
+
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
+
+imap <C-W> <C-O><C-W>
