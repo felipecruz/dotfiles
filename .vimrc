@@ -43,3 +43,8 @@ noremap <Up> <nop>
 noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
+
+au FileType c set colorcolumn=79
+au FileType text set colorcolumn=79
+au FileType javascript set colorcolumn=79
+au FileType python set colorcolumn=79
