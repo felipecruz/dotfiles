@@ -12,3 +12,4 @@ Vim Plugins
 * Vim pytest https://github.com/alfredodeza/pytest.vim 
 * Vim Syntastic https://github.com/scrooloose/syntastic 
 * Vim ctrlp https://github.com/kien/ctrlp.vim
+* Vim fugitive https://github.com/tpope/vim-fugitive
