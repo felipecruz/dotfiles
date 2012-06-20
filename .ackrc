@@ -1,0 +1,14 @@
+--type-add=python=.py
+--type-add=html=.html.erb,.html.haml
+--type-add=js=.js.erb,.json
+--type-add=css=.sass,.less,.scss
+--type-set=markdown=.markdown,.mdown,.md,.mkd,.mkdn,.txt
+
+--ignore-dir=coverage
+--ignore-dir=coverage_report
+
+--color
+
+--color-filename=black
+--color-match=red
+--color-lineno=green
