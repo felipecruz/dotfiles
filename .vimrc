@@ -134,3 +134,30 @@ nmap <silent><Leader>te <Esc>:Pytest error<CR>
 let g:syntastic_mode_map = { 'mode': 'active',
                            \ 'active_filetypes': ['c'],
                            \ 'passive_filetypes': ['python'] }
+
+" Load pylint code plugin
+let g:pymode_lint = 0
+let g:pymode_lint_write = 0
+
+" Switch pylint, pyflakes, pep8, mccabe code-checkers
+" Can have multiply values "pep8,pyflakes,mcccabe"
+let g:pymode_lint_checker = "pyflakes,pep8"
+
+
+" Vim relative number config
+
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set number
+  else
+    set relativenumber
+  endif
+endfunc
+
+nnoremap <C-n> :call NumberToggle()<cr>
+
+au FocusLost * :set number
+au FocusGained * :set relativenumber
+
+autocmd InsertEnter * :set number
+autocmd InsertLeave * :set relativenumber
