@@ -42,4 +42,6 @@ export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
 export ARCHFLAGS="-arch x86_64"
+export ANDROID_HOME=/Users/felipecruz/DevApps/android-sdk-mac_x86/
 export PATH=$PATH:/Users/felipecruz/DevApps/android-sdk-mac_x86/tools
+export PATH=$PATH:/Users/felipecruz/DevApps/android-sdk-mac_x86/platform-tools
