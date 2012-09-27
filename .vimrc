@@ -95,6 +95,10 @@ set smarttab
 set hlsearch
 set incsearch
 
+set backupdir=~/.vim/tmp
+set directory=~/.vim/tmp
+set noswapfile
+
 " paste from clipboard
 map <leader>p "+gP"
 
