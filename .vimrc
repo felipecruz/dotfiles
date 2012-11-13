@@ -51,6 +51,9 @@ noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
 
+" move last and only char from one line to end of line above
+map <leader>^ hvk$x
+
 au FileType c set colorcolumn=79
 au FileType text set colorcolumn=79
 au FileType javascript set colorcolumn=79
