@@ -168,3 +168,5 @@ au FocusGained * :set relativenumber
 
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
+
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
