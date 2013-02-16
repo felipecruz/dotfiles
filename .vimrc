@@ -125,6 +125,7 @@ au FileType python setlocal smartindent cinwords=if,elif,else,for,while,try,exce
 
 " Plugins configs
 let g:ctrlp_map='<c-p>'
+let g:ctrlp_working_path_mode = 'r'
 
 " Disable pylint checking every save
 let g:pymode_lint_write = 0
