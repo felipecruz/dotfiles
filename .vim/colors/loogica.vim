@@ -37,7 +37,7 @@ hi LineNr guifg=#888888
 hi MoreMsg gui=bold guifg=SeaGreen
 hi NonText gui=bold guifg=Blue guibg=grey90
 hi Question gui=bold guifg=SeaGreen
-hi Search guibg=#dddddd guifg=NONE
+hi Search guibg=yellow guifg=black
 hi SpecialKey guifg=Blue
 hi Title gui=bold guifg=Magenta
 hi WarningMsg guifg=Red
