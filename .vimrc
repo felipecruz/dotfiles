@@ -171,3 +171,6 @@ autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+
+" disable virtualenv support - it's annoying
+let g:pymode_virtualenv = 0
