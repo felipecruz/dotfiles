@@ -1,0 +1,24 @@
+# aliases
+alias sox screenOriginX
+alias soy screenOriginY
+alias ssx screenSizeX
+alias ssy screenSizeY
+
+alias fullscreen ${sox};${soy} ${ssx};${ssy}
+
+# basic bindings
+
+bind up:alt,ctrl push up bar-resize:screenSizeY/2
+bind k:alt,ctrl push up bar-resize:screenSizeY/2
+
+bind down:alt,ctrl push down bar-resize:screenSizeY/2
+bind j:alt,ctrl push down bar-resize:screenSizeY/2
+
+bind left:alt,ctrl push left bar-resize:screenSizeX/2
+bind h:alt,ctrl push left bar-resize:screenSizeX/2
+
+bind right:alt,ctrl push right bar-resize:screenSizeX/2
+bind l:alt,ctrl push right bar-resize:screenSizeX/2
+
+bind f:alt,ctrl move ${fullscreen}
+bind 1:ctrl relaunch
