@@ -143,6 +143,9 @@ let g:syntastic_mode_map = { 'mode': 'active',
                            \ 'active_filetypes': ['c'],
                            \ 'passive_filetypes': ['python'] }
 
+" tagbar
+nmap <F8> :TagbarToggle<CR>
+
 " Load pylint code plugin
 let g:pymode_lint = 0
 let g:pymode_lint_write = 0
