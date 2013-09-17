@@ -144,6 +144,8 @@ let g:syntastic_mode_map = { 'mode': 'active',
                            \ 'active_filetypes': ['c'],
                            \ 'passive_filetypes': ['python'] }
 
+let g:syntastic_c_remove_include_errors = 1
+
 " tagbar
 nmap <F8> :TagbarToggle<CR>
 
@@ -178,3 +180,9 @@ vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
 " disable virtualenv support - it's annoying
 let g:pymode_virtualenv = 0
+
+" flex
+autocmd BufRead,BufNewFile *.flex,*.l setlocal ft=lex
+
+" bison
+autocmd BufRead,BufNewFile *.y,*.ypp setlocal ft=yacc
