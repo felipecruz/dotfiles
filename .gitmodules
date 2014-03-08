@@ -31,3 +31,6 @@
 [submodule ".vim/bundle/vim-tubaina"]
 	path = .vim/bundle/vim-tubaina
 	url = https://github.com/vinibaggio/vim-tubaina
+[submodule ".vim/bundle/julia-vim"]
+	path = .vim/bundle/julia-vim
+	url = https://github.com/JuliaLang/julia-vim.git
