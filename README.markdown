@@ -15,6 +15,16 @@ Vim Plugins
 * Vim fugitive https://github.com/tpope/vim-fugitive
 * minibufexpl.vim https://github.com/fholgado/minibufexpl.vim.git
 
+Install zsh
+-----------
+
+```
+sudo apt-get install zsh
+chsh -s $(which zsh)
+```
+
+
+
 Install ZSH Theme
 -----------------
 
