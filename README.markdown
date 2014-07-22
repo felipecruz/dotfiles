@@ -14,3 +14,10 @@ Vim Plugins
 * Vim ctrlp https://github.com/kien/ctrlp.vim
 * Vim fugitive https://github.com/tpope/vim-fugitive
 * minibufexpl.vim https://github.com/fholgado/minibufexpl.vim.git
+
+Install ZSH Theme
+-----------------
+
+```
+ln -s dotfiles/loogica.zsh-theme .oh-mym-zsh/themes/loogica.zsh-theme
+```
