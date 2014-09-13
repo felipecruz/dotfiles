@@ -55,6 +55,8 @@ noremap <Right> <nop>
 map <leader>^ hvk$x
 
 au FileType c set colorcolumn=79
+au FileType cpp set colorcolumn=79
+au FileType h set colorcolumn=79
 au FileType text set colorcolumn=79
 au FileType javascript set colorcolumn=79
 au FileType python set colorcolumn=79
@@ -120,6 +122,7 @@ autocmd BufNewFile,BufRead *.jinja2 setlocal ft=html
 " tab<spaces> width and indent size = 2
 autocmd FileType html,xhtml,xml,css setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 autocmd BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
+au BufNewFile,BufRead *.cpp set syntax=cpp11
 
 " python cinwords
 au FileType python setlocal smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class,with
