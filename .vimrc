@@ -121,7 +121,7 @@ autocmd BufNewFile,BufRead *.jinja2 setlocal ft=html
 
 " tab<spaces> width and indent size = 2
 autocmd FileType html,xhtml,xml,css setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
-autocmd BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
+autocmd BufNewFile,BufReadPost *.js,*.coffee setl shiftwidth=2 expandtab
 au BufNewFile,BufRead *.cpp set syntax=cpp11
 
 " python cinwords
