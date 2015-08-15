@@ -60,6 +60,7 @@ au FileType h set colorcolumn=79
 au FileType text set colorcolumn=79
 au FileType javascript set colorcolumn=79
 au FileType python set colorcolumn=79
+au FileType tubaina set colorcolumn=73
 
 set numberwidth=1
 set title
@@ -161,6 +162,7 @@ let g:pymode_lint_write = 0
 " Can have multiply values "pep8,pyflakes,mcccabe"
 let g:pymode_lint_checker = "pyflakes,pep8"
 
+let g:syntastic_cpp_compiler_options = '-std=c++11'
 
 " Vim relative number config
 

@@ -43,3 +43,9 @@
 [submodule ".vim/bundle/Cpp11-Syntax-Support"]
 	path = .vim/bundle/Cpp11-Syntax-Support
 	url = https://github.com/vim-scripts/Cpp11-Syntax-Support
+[submodule ".vim/bundle/vim-scala"]
+	path = .vim/bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala.git
+[submodule ".vim/bundle/vim-json"]
+	path = .vim/bundle/vim-json
+	url = https://github.com/elzr/vim-json.git
