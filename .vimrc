@@ -43,9 +43,7 @@ map <c-h> <c-w>h
 
 imap <C-W> <C-O><C-W>
 
-if has("gui_running")
-    colorscheme loogica
-endif
+colorscheme prognoos
 
 noremap <Up> <nop>
 noremap <Down> <nop>
