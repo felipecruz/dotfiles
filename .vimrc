@@ -61,8 +61,8 @@ au FileType h set colorcolumn=79
 au FileType text set colorcolumn=79
 au FileType javascript set colorcolumn=79
 au FileType python set colorcolumn=79
-au FileType tubaina set colorcolumn=73
 au FileType typescript set colorcolumn=86
+au FileType go set colorcolumn=86
 
 set numberwidth=1
 set title
@@ -137,15 +137,6 @@ nmap <F5> :CtrlPClearCache
 
 " Disable pylint checking every save
 let g:pymode_lint_write = 0
-
-" run py.test's
-nmap <silent><Leader>tf <Esc>:Pytest file<CR>
-nmap <silent><Leader>tc <Esc>:Pytest class<CR>
-nmap <silent><Leader>tm <Esc>:Pytest method<CR>
-nmap <silent><Leader>tfu <Esc>:Pytest function<CR>
-nmap <silent><Leader>tn <Esc>:Pytest next<CR>
-nmap <silent><Leader>tp <Esc>:Pytest previous<CR>
-nmap <silent><Leader>te <Esc>:Pytest error<CR>
 
 let g:syntastic_mode_map = { 'mode': 'active',
                            \ 'active_filetypes': ['c'],
