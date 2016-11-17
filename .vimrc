@@ -1,5 +1,7 @@
 filetype off
 
+set shell=bash\ --login
+
 call pathogen#infect()
 
 filetype plugin indent on
@@ -60,6 +62,7 @@ au FileType text set colorcolumn=79
 au FileType javascript set colorcolumn=79
 au FileType python set colorcolumn=79
 au FileType tubaina set colorcolumn=73
+au FileType typescript set colorcolumn=86
 
 set numberwidth=1
 set title
