@@ -191,3 +191,12 @@ autocmd BufRead,BufNewFile *.flex,*.l setlocal ft=lex
 
 " bison
 autocmd BufRead,BufNewFile *.y,*.ypp setlocal ft=yacc
+
+au! BufNewFile,BufRead * let b:spell_language="brasileiro"
+
+let g:closetag_filenames = "*.html,*.xhtml"
+
+au FileType go nmap <leader>r <Plug>(go-run)
+au FileType go nmap <leader>b <Plug>(go-build)
+au FileType go nmap <leader>t <Plug>(go-test)
+au FileType go nmap <leader>c <Plug>(go-coverage)
