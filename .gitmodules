@@ -4,9 +4,6 @@
 [submodule ".vim/bundle/python-mode"]
 	path = .vim/bundle/python-mode
 	url = https://github.com/klen/python-mode.git
-[submodule ".vim/bundle/pytest.vim"]
-	path = .vim/bundle/pytest.vim
-	url = https://github.com/alfredodeza/pytest.vim.git
 [submodule ".vim/bundle/syntastic"]
 	path = .vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
@@ -28,18 +25,9 @@
 [submodule ".vim/bundle/tagbar"]
 	path = .vim/bundle/tagbar
 	url = git://github.com/majutsushi/tagbar
-[submodule ".vim/bundle/vim-tubaina"]
-	path = .vim/bundle/vim-tubaina
-	url = https://github.com/vinibaggio/vim-tubaina
 [submodule ".vim/bundle/vim-json"]
 	path = .vim/bundle/vim-json
 	url = https://github.com/elzr/vim-json.git
-[submodule ".vim/.vim/bundle/d.vim"]
-	path = .vim/.vim/bundle/d.vim
-	url = https://github.com/JesseKPhillips/d.vim.git
-[submodule ".vim/bundle/d.vim"]
-	path = .vim/bundle/d.vim
-	url = https://github.com/JesseKPhillips/d.vim.git
 [submodule ".vim/bundle/vim-go"]
 	path = .vim/bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
