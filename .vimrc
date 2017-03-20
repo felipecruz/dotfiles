@@ -45,7 +45,7 @@ map <c-h> <c-w>h
 
 imap <C-W> <C-O><C-W>
 
-colorscheme prognoos
+colorscheme cognitivo-light
 
 noremap <Up> <nop>
 noremap <Down> <nop>
